@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Assignment02';
+  txtusename = ""
+  usename = ""
+
+  onCreateusename(){
+    this.txtusename = "Usename : \""+this.usename +"\" "
+  }
 }
