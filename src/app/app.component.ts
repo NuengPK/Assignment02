@@ -11,6 +11,7 @@ export class AppComponent {
   usename = ""
 
   onCreateusename(){
-    this.txtusename = "Usename : \""+this.usename +"\" "
+    this.txtusename = "\""+this.usename +"\" "
+    this.usename = ""
   }
 }

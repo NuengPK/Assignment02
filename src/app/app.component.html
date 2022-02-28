@@ -1,4 +1,5 @@
 <h1><P class="pKai">field username </P></h1>
 <input type="text" class="form-control" [(ngModel)]="usename" />
 {{txtusename}}
-<p><button class="btn btn-outline-primary" (click)="onCreateusename()">Print</button></p>
+<p><button class="btn btn-outline-primary" (click)="onCreateusename()"
+  [disabled]="usename===''">Print</button></p>
